@@ -1,0 +1,86 @@
+.closeModal {
+  position: absolute;
+  font-size: 50px;
+  top: -5px;
+  right: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.myFormTest span {
+  display: block;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 32px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.myFormTest .btn-login {
+  display: inline-block;
+  transition: 0.3s;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 1;
+  padding: 22px 30px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-color: #FFD836;
+  background-color: #FFD836;
+  color: white;
+}
+
+.myFormTest .btn-login:hover {
+  border-color: rgb(253, 195, 52);
+  background-color: rgb(253, 195, 52);
+}
+
+.myFormTest .label-link {
+  font-size: 12px;
+  color: #0366d6;
+  top: 0;
+  right: 0;
+}
+.myFormTest h4{
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.myFormTest .errorSignIn{
+  text-align:center;
+  font-weight:bold;
+  font-size:1.2rem
+}
+.myFormTest .form-label{
+  font-weight: 700;
+}
+
+.modalFooter {
+  margin: 40px -40px -40px;
+  text-align: center;
+  padding: 15px 20px;
+  background-color: #f5f5f5;
+  border-radius: 0 0 12px 12px;
+  font-size: 18px;
+}
+
+.modalFooter span {
+  margin-right: 6px;
+}
+
+.modalFooter span b {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.modalFooter button {
+  color: #0366d6;
+  background-color: #f5f5f5;
+  border: 0;
+}
+
+.modalFooter button:hover {
+  text-decoration: underline;
+}
